@@ -8,7 +8,7 @@ The repository contains the benchmarking set for evaluating balancing methods in
 
 The set is made of three main sources: *OpenML-100* benchmarking suite, *OpenML-CC18* benchmarking suite and the collection of datasets available in *imblearn* library in Python. It only contains continuous columns (categorical were removed). Each of the datasets contains at least 1000 rows and has Imbalance Ratio of at least 1.5. Additionaly, columns containing the same information were deleted.
 
-This benchmarking set is also availble through the *edgaro* (link) package, which is the main result of my Engineering Thesis. It can be loaded using the following code:
+This benchmarking set is also availble through the *edgaro* ([link](https://github.com/adrianstando/edgaro)) package, which is the main result of my Engineering Thesis. It can be loaded using the following code:
 
 ```python
 from edgaro.data.dataset_array import load_benchmarking_set
